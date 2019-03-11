@@ -5,4 +5,4 @@ jdk:
 before_install:
   - chmod +x mvnw
 after_success:
-  - mvn coveralls:report
+  - mvn -DTRAVIS_JOB_ID=$TRAVIS_JOB_ID cobertura:cobertura coveralls:report
