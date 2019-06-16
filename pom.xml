@@ -7,7 +7,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.joninx</groupId>
 	<artifactId>citybikes-java-client</artifactId>
-	<version>1.0.0-RELEASE</version>
+	<version>1.1.0-RELEASE</version>
 	<name>citybikes-api-client</name>
 	<description>Cliente de la API City Bikes</description>
 	<packaging>jar</packaging>
@@ -44,18 +44,19 @@
 	<properties>
 	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>1.8</java.version>
-		<maven.compiler.source>1.8</maven.compiler.source>
-    	<maven.compiler.target>1.8</maven.compiler.target>
+		<java.version>11</java.version>
+		<maven.compiler.source>11</maven.compiler.source>
+    	<maven.compiler.target>11</maven.compiler.target>
 
-		<junit.version>5.4.0</junit.version>
+		<junit.version>5.4.2</junit.version>
 
-		<jackson.version>2.9.8</jackson.version>
-		<lombok.version>1.18.6</lombok.version>
-		<retrofit.version>2.5.0</retrofit.version>
-		<okhttp.version>3.13.1</okhttp.version>
-		<commons-lang3.version>3.8.1</commons-lang3.version>
-		<commons-configuration2.version>2.4</commons-configuration2.version>
+		<jackson.version>2.9.9</jackson.version>
+		<lombok.version>1.18.8</lombok.version>
+		<retrofit.version>2.6.0</retrofit.version>
+		<okhttp.version>3.14.2</okhttp.version>
+		<okhttp-apache.version>3.13.1</okhttp-apache.version>
+		<commons-lang3.version>3.9</commons-lang3.version>
+		<commons-configuration2.version>2.5</commons-configuration2.version>
 		<commons-beanutils.version>1.9.3</commons-beanutils.version>
 		<log4j.version>2.11.2</log4j.version>
 	</properties>
@@ -95,7 +96,7 @@
 		<dependency>
 			<groupId>com.squareup.okhttp3</groupId>
 			<artifactId>okhttp-apache</artifactId>
-			<version>${okhttp.version}</version>
+			<version>${okhttp-apache.version}</version>
 		</dependency>
 
 		<!-- Lombok -->
