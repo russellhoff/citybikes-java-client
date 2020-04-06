@@ -5,9 +5,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.joninx</groupId>
+	<groupId>es.joninx</groupId>
 	<artifactId>citybikes-java-client</artifactId>
-	<version>1.2.0-RELEASE</version>
+	<version>1.3.0-RELEASE</version>
 	<name>citybikes-api-client</name>
 	<description>Cliente de la API City Bikes</description>
 	<packaging>jar</packaging>
@@ -16,7 +16,7 @@
 		<developer>
 			<email>captain06@gmail.com</email>
 			<name>Jon I</name>
-			<url>https://www.joninx.com/</url>
+			<url>https://www.joninx.es/</url>
 		</developer>
 	</developers>
 
