@@ -1,11 +1,11 @@
 es\joninx\citybikesjavaclient\jackson\JacksonFactory.class
-es\joninx\citybikesjavaclient\model\Station.class
-es\joninx\citybikesjavaclient\model\System.class
 es\joninx\citybikesjavaclient\retrofit\CityBikesClientImpl.class
-es\joninx\citybikesjavaclient\model\Networks.class
 es\joninx\citybikesjavaclient\retrofit\CityBikesClient.class
-es\joninx\citybikesjavaclient\model\Extra.class
 es\joninx\citybikesjavaclient\model\Location.class
 es\joninx\citybikesjavaclient\model\Meta.class
 es\joninx\citybikesjavaclient\model\NetworkSummary.class
 es\joninx\citybikesjavaclient\model\Network.class
+es\joninx\citybikesjavaclient\model\Station.class
+es\joninx\citybikesjavaclient\model\System.class
+es\joninx\citybikesjavaclient\model\Networks.class
+es\joninx\citybikesjavaclient\model\Extra.class

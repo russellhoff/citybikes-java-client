@@ -23,12 +23,7 @@ import retrofit2.Response;
 
 public class MainTest {
 
-	private static CityBikesClientImpl client;
-
-	@BeforeAll
-	static void setup() {
-		client = new CityBikesClientImpl("http://api.citybik.es/");
-	}
+	private static CityBikesClientImpl client = new CityBikesClientImpl("http://api.citybik.es/");
 
 	private void testResponseNetworks(Response<Networks> response) {
 		Networks networks = response.body();
@@ -56,7 +51,7 @@ public class MainTest {
 		});
 	}
 
-	protected void testResponseNetwork(Response<Network> response) {
+	private void testResponseNetwork(Response<Network> response) {
 		Network network = response.body();
 		if(network.isValid()) {
 			System.out.println("Network: " + network.getId());
@@ -129,7 +124,6 @@ public class MainTest {
 	@DisplayName("testGetNetworks")
 	@Test
 	public void testGetNetworks() {
-		assertDoesNotThrow(() -> client.getNetworks());
 		Response<Networks> response;
 		try {
 			response = client.getNetworks();
@@ -153,7 +147,7 @@ public class MainTest {
 			assertNotNull(responseNetworks);
 			assertTrue(responseNetworks.isSuccessful());
 			Networks networks = responseNetworks.body();
-			networks.getNetworks().forEach(ns -> {
+			networks.getNetworks().stream().limit(10).forEach(ns -> {
 				final String nsId = ns.getId();
 				client.getNetworkAsync(ns, new Callback<Network>() {
 
@@ -189,9 +183,8 @@ public class MainTest {
 			assertNotNull(responseNetworks);
 			assertTrue(responseNetworks.isSuccessful());
 			Networks networks = responseNetworks.body();
-			networks.getNetworks().forEach(ns -> {
+			networks.getNetworks().stream().limit(10).forEach(ns -> {
 				final String nsId = ns.getId();
-				assertDoesNotThrow(() -> client.getNetwork(ns));
 				try {
 					Response<Network> responseNetwork = client.getNetwork(ns);
 					assertNotNull(responseNetwork);
