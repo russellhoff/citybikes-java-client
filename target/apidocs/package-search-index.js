@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"es.joninx.citybikes"},{"l":"es.joninx.citybikes.jackson"},{"l":"es.joninx.citybikes.model"},{"l":"es.joninx.citybikes.retrofit"},{"l":"es.joninx.citybikes.utility"}]

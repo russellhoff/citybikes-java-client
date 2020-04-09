@@ -11,12 +11,12 @@ import java.util.Set;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.*;
 
-import es.joninx.citybikesjavaclient.model.Location;
-import es.joninx.citybikesjavaclient.model.Network;
-import es.joninx.citybikesjavaclient.model.NetworkSummary;
-import es.joninx.citybikesjavaclient.model.Networks;
-import es.joninx.citybikesjavaclient.model.Station;
-import es.joninx.citybikesjavaclient.retrofit.CityBikesClientImpl;
+import es.joninx.citybikes.model.Location;
+import es.joninx.citybikes.model.Network;
+import es.joninx.citybikes.model.NetworkSummary;
+import es.joninx.citybikes.model.Networks;
+import es.joninx.citybikes.model.Station;
+import es.joninx.citybikes.retrofit.CityBikesClientImpl;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
