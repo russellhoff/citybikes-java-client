@@ -67,7 +67,7 @@
 		<okhttp.version>4.4.0</okhttp.version>
 		<okhttp-apache.version>3.13.1</okhttp-apache.version>
 		<commons-lang3.version>3.9</commons-lang3.version>
-		<commons-configuration2.version>2.6</commons-configuration2.version>
+		<commons-configuration2.version>2.7</commons-configuration2.version>
 		<commons-beanutils.version>1.9.4</commons-beanutils.version>
 		<log4j.version>2.13.1</log4j.version>
 		<jts.version>1.16.1</jts.version>
