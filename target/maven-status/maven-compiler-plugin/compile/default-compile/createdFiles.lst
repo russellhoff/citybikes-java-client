@@ -1,12 +1,12 @@
+es\joninx\citybikes\retrofit\CityBikesClientImpl.class
+es\joninx\citybikes\model\Extra.class
 es\joninx\citybikes\model\Meta.class
 es\joninx\citybikes\model\Location.class
+es\joninx\citybikes\utility\GeoUtil.class
 es\joninx\citybikes\model\Network.class
 es\joninx\citybikes\model\NetworkSummary.class
 es\joninx\citybikes\model\Station.class
 es\joninx\citybikes\model\Networks.class
 es\joninx\citybikes\retrofit\CityBikesClient.class
 es\joninx\citybikes\model\System.class
-es\joninx\citybikes\retrofit\CityBikesClientImpl.class
-es\joninx\citybikes\model\Extra.class
-es\joninx\citybikes\utility\GeoUtil.class
 es\joninx\citybikes\jackson\JacksonFactory.class

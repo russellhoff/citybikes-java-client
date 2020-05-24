@@ -8,7 +8,6 @@ import es.joninx.citybikes.jackson.JacksonFactory;
 import es.joninx.citybikes.model.Network;
 import es.joninx.citybikes.model.NetworkSummary;
 import es.joninx.citybikes.model.Networks;
-import lombok.extern.log4j.Log4j2;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Call;
@@ -26,7 +25,6 @@ import retrofit2.converter.jackson.JacksonConverterFactory;
  * @version 1.3.1-RELEASE
  *
  */
-@Log4j2
 public class CityBikesClientImpl {
 
 	/**
@@ -52,7 +50,6 @@ public class CityBikesClientImpl {
 	 * @param pBaseUrl Citybikes API's base url. E.g. http://api.citybik.es/
 	 */
 	public CityBikesClientImpl(String pBaseUrl) {
-		log.debug("new CityBikesClient({})", pBaseUrl);
 		JacksonFactory jacksonFactory = JacksonFactory.getInstance();
 		this.mapper = jacksonFactory.getMapper();
 		
