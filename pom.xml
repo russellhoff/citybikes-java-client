@@ -65,7 +65,7 @@
 		<jackson.version>2.11.0</jackson.version>
 		<lombok.version>1.18.12</lombok.version>
 		<retrofit.version>2.9.0</retrofit.version>
-		<okhttp.version>4.7.2</okhttp.version>
+		<okhttp.version>4.9.2</okhttp.version>
 		<okhttp-apache.version>3.13.1</okhttp-apache.version>
 		<commons-lang3.version>3.10</commons-lang3.version>
 		<jts.version>1.16.1</jts.version>
